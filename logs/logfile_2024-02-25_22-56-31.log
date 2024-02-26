@@ -1,0 +1,16 @@
+Start downloading data
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+$data/2020.csv: No such file or directory
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+$data/2021.csv: No such file or directory
+WARNING: timestamping does nothing in combination with -O. See the manual
+for details.
+
+$data/2022.csv: No such file or directory
+Download failed!
+[Error: ] Return Code: 1
+[Error: ] Refer to log file

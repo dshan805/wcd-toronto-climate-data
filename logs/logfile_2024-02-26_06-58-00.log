@@ -1,0 +1,46 @@
+Start downloading data
+--2024-02-26 06:58:00--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2020&Month=2&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: 'data/2020.csv'
+
+     0K .......... .......... .......... .......... ..........  398K
+    50K .......... .......... .......... .......... ..........  790K
+   100K .......... .......... .......                           439K=0.3s
+
+2024-02-26 06:58:03 (507 KB/s) - 'data/2020.csv' saved [130712]
+
+--2024-02-26 06:58:03--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2021&Month=2&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: 'data/2021.csv'
+
+     0K .......... .......... .......... .......... ..........  400K
+    50K .......... .......... .......... .......... ..........  746K
+   100K .......... .......... ...                               410M=0.2s
+
+2024-02-26 06:58:05 (644 KB/s) - 'data/2021.csv' saved [126714]
+
+--2024-02-26 06:58:05--  https://climate.weather.gc.ca/climate_data/bulk_data_e.html?format=csv&stationID=48549&Year=2022&Month=2&timeframe=1&submit=%20Download+Data
+Resolving climate.weather.gc.ca (climate.weather.gc.ca)... 205.189.10.46
+Connecting to climate.weather.gc.ca (climate.weather.gc.ca)|205.189.10.46|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/force-download]
+Saving to: 'data/2022.csv'
+
+     0K .......... .......... .......... .......... ..........  404K
+    50K .......... .......... .......... .......... ..........  804K
+   100K .......... .......... ...                               408M=0.2s
+
+2024-02-26 06:58:07 (665 KB/s) - 'data/2022.csv' saved [126636]
+
+Download successful
+Running Python script
+C:\Users\dshan\OneDrive\Documents\school\we_cloud_data\week1\lab1\script\..\data\2020.csv read
+C:\Users\dshan\OneDrive\Documents\school\we_cloud_data\week1\lab1\script\..\data\2021.csv read
+C:\Users\dshan\OneDrive\Documents\school\we_cloud_data\week1\lab1\script\..\data\2022.csv read
+Concat successful

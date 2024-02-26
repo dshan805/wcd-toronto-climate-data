@@ -1,0 +1,19 @@
+Start downloading data
+Download successful
+Running Python script
+Traceback (most recent call last):
+  File "C:\Users\dshan\OneDrive\Documents\school\we_cloud_data\week1\lab1\script\data_concat.py", line 18, in <module>
+    df_concat = pd.concat(files, axis=0, ignore_index=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\pandas\core\reshape\concat.py", line 382, in concat
+    op = _Concatenator(
+         ^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\pandas\core\reshape\concat.py", line 445, in __init__
+    objs, keys = self._clean_keys_and_objs(objs, keys)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\site-packages\pandas\core\reshape\concat.py", line 507, in _clean_keys_and_objs
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+Python script failed!
+[Error: ] Return Code: 1
+[Error: ] Refer to log file

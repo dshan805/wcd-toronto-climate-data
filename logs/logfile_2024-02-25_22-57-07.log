@@ -1,0 +1,7 @@
+Start downloading data
+wget: $data/2020.csv: No such file or directory
+wget: $data/2021.csv: No such file or directory
+wget: $data/2022.csv: No such file or directory
+Download failed!
+[Error: ] Return Code: 1
+[Error: ] Refer to log file

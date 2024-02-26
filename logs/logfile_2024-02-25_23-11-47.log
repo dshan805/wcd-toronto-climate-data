@@ -1,0 +1,10 @@
+Start downloading data
+Download successful
+Running Python script
+Traceback (most recent call last):
+  File "C:\Users\dshan\OneDrive\Documents\school\we_cloud_data\week1\lab1\script\data_concat.py", line 2, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+Python script failed!
+[Error: ] Return Code: 1
+[Error: ] Refer to log file
